@@ -1,3 +1,3 @@
-let num =10
-let num=20
-console.log('Addition is ${num1 + num2}')
+let num1=10
+let num2=20
+console.log(`Addition is ${num1 + num2}`)
