@@ -11,5 +11,8 @@
     "demo"
   ],
   "author": "pradeepbd",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "libphonenumber-js": "^1.7.22"
+  }
 }
