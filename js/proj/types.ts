@@ -5,7 +5,7 @@ let num: number = 10
 let isCv: boolean = false
 let weight: number = 456.9
 
-let obj: { [key: string]: boolean } = {
+let obj1: { [key: string]: boolean } = {
     age: 7 == 7,
     cb: true
 }
