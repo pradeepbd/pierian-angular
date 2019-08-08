@@ -1,6 +1,8 @@
-<div>
-  <app-first></app-first>
-  <app-second></app-second>
+<div class="container">
 
+  <input [type]="'text'" (click)="myClk($event)">
 
+  <app-custom
+    [alTxt]="txt"
+    (clicked)="customComponentClicked($event)"></app-custom>
 </div>
