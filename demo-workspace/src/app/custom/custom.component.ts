@@ -11,7 +11,7 @@ export class CustomComponent implements OnInit {
   alTxt: string
 
   @Output()
-  clicked: EventEmitter<EvDt> = new EventEmitter()
+  clicsdgsfgked: EventEmitter<EvDt> = new EventEmitter()
 
   constructor() { }
 
@@ -25,7 +25,7 @@ export class CustomComponent implements OnInit {
     let ev: EvDt = {
       txt: this.alTxt
     }
-    this.clicked.emit(ev)
+    this.clicsdgsfgked.emit(ev)
   }
 }
 

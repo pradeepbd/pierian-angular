@@ -1,0 +1,5 @@
+1>i have created first custom component
+2>i have write code in custom html 
+3>i have write code in custom component ts file
+4> i have write code in the app component html file and call the custom file
+5>i have write the code in the app component ts file 

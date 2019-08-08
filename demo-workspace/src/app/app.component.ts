@@ -7,14 +7,23 @@ import { EvDt } from './custom/custom.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'demo-workspace';
+
+  ev: EvDt
+
   txt = 'Image result for angular componentsangular.io Components are the most basic building block of an UI in an Angular application. An Angular application is a tree of Angular components.'
 
   customComponentClicked(e: EvDt) {
-    console.log(e.txt)
+    this.ev = e
   }
 
   myClk(e: MouseEvent) {
     console.log(e.target)
+  }
+
+  fnClk(el: any) {
+    console.log(el)
+    el.style.border = '1px solid red'
+    this.txt = el.value
+    // this.txt = str
   }
 }
