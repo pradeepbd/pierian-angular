@@ -20,6 +20,9 @@ import { Comp2Component } from './services/comp2/comp2.component';
 import { ProgressDemoComponent } from './services/progress-demo/progress-demo.component';
 import { ProgBarComponent } from './services/progress-demo/prog-bar.component';
 import { OpBtnsComponent } from './services/progress-demo/op-btns.component';
+import { ServicedemoComponent } from './servicedemo/servicedemo.component';
+import { Com1Component } from './servicedemo/com1/com1.component';
+import { Com2Component } from './servicedemo/com2/com2.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { OpBtnsComponent } from './services/progress-demo/op-btns.component';
     Comp2Component,
     ProgressDemoComponent,
     ProgBarComponent,
-    OpBtnsComponent
+    OpBtnsComponent,
+    ServicedemoComponent,
+    Com1Component,
+    Com2Component
   ],
   imports: [
     BrowserModule
