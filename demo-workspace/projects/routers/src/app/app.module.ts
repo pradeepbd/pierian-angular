@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ResourcesModule } from './resources/resources.module';
+// import { ResourcesModule } from './resources/resources.module';
 import { NavModule } from './nav/nav.module';
 import { DashModule } from './dash/dash.module';
 
@@ -21,7 +21,7 @@ import { DashModule } from './dash/dash.module';
 
     BlogModule,
     EventsModule,
-    ResourcesModule,
+    // ResourcesModule,
     LoginModule,
     DashModule
   ],

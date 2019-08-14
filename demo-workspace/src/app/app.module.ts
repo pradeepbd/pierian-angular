@@ -24,6 +24,7 @@ import { ServicedemoComponent } from './servicedemo/servicedemo.component';
 import { Com1Component } from './servicedemo/com1/com1.component';
 import { Com2Component } from './servicedemo/com2/com2.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +47,8 @@ import { Com2Component } from './servicedemo/com2/com2.component';
     OpBtnsComponent,
     ServicedemoComponent,
     Com1Component,
-    Com2Component
+    Com2Component,
+
   ],
   imports: [
     BrowserModule
